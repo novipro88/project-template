@@ -14,6 +14,24 @@ pnpm dev
 bun dev
 ```
 
+## Environment
+
+Create .env file on your root project and input your own environment
+
+```bash
+GOOGLE_ID=...
+GOOGLE_SECRET=...
+
+MONGODB_URI="mongodb+srv://..."
+
+CLOUDINARY_CLOUD_NAME='...'
+CLOUDINARY_API_KEY=...
+CLOUDINARY_API_SECRET=...
+
+NEXTAUTH_SECRET="your random secret"
+NEXTAUTH_URL="http://localhost:3000"
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
